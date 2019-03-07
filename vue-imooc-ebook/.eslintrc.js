@@ -21,7 +21,11 @@ module.exports = {
     'space-in-parens':'off',
     'space-before-blocks':'off',
     'space-before-function-paren':'off',
-    'semi':'off'
+    'semi':'off',
+    'no-unused-vars':'off',
+    'block-spacing':'off',
+    'brace-style':'off',
+    'arrow-spacing':'off',
   },
   parserOptions: {
     parser: 'babel-eslint'
